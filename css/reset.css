@@ -4,18 +4,24 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 * {
-    padding: 0px;
-    margin: 0px;
-    border: none;
+	padding: 0px;
+	margin: 0px;
+	border: none;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-    font-size: inherit;
-    font-weight: inherit;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	font-size: inherit;
+	font-weight: inherit;
 }
 
 
@@ -24,48 +30,56 @@ h1, h2, h3, h4, h5, h6, p {
 ==============================*/
 
 img {
-    display: block;
-    vertical-align: top;
+	display: block;
 }
 
-img, svg {
-    max-width: 100%;
-    height: auto;
+img,
+svg {
+	max-width: 100%;
+	height: auto;
 }
 
 
 /* List
 ==============================*/
 
-ul, ul li {
-    list-style: none;
+ul,
+ul li {
+	list-style: none;
 }
 
 
 /* Links
 ==============================*/
 
-a, a:link, a:visited, a:hover  {
-    text-decoration: none;
+a,
+a:link,
+a:visited,
+a:hover {
+	text-decoration: none;
 }
 
 
 /* Form
 ==============================*/
 
-input, textarea, button, select {
-    font-family: inherit;
-    font-size: inherit;
-    color: inherit;
-    background-color: transparent;
+input,
+textarea,
+button,
+select {
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background-color: transparent;
 }
 
-button, input[type="submit"] {
-    display: inline-block;
-    box-shadow: none;
-    background-color: transparent;
-    background: none;
-    cursor: pointer;
+button,
+input[type="submit"] {
+	display: inline-block;
+	box-shadow: none;
+	background-color: transparent;
+	background: none;
+	cursor: pointer;
 }
 
 
@@ -73,7 +87,7 @@ button, input[type="submit"] {
 ==============================*/
 
 address {
-  font-style: normal;
+	font-style: normal;
 }
 
 
@@ -81,10 +95,10 @@ address {
 ==============================*/
 
 @media (prefers-reduced-motion: reduce) {
-    * {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-    }
+	* {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
 }
